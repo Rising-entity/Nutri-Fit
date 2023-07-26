@@ -1,0 +1,64 @@
+.Section4 .bx {
+    /* Existing styles */
+
+    /* Add transition property */
+    transition: transform 0.3s ease;
+}
+
+.Section4 .bx:hover {
+    /* Add hover styles */
+    transform: translateY(-10px);
+}
+
+.Section4 .bx {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    min-height: 322px;
+    /* width: 311px; */
+    margin: 0px 19px;
+    border-radius: 13px;
+}
+
+.Section4 {
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.Section4 .s4img1 {
+    height: 221px;
+    width: 236px;
+    position: relative;
+    left: 26px;
+}
+
+.Section4 .s4img2 {
+    height: 221px;
+    width: 236px;
+    position: relative;
+    top: 17px;
+    left: 31px;
+}
+
+.Section4 .s4img3 {
+    height: 221px;
+    width: 236px;
+    position: relative;
+    left: 23px;
+    top: 10px;
+}
+
+.Section4 h6 {
+    text-align: center;
+    margin-top: 28px;
+    color: #141414b8;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+@media (max-width: 767px) {
+    .Section4 .bx {
+        width: 78vw;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,35 @@
+.Navbar img {
+    height: 62px;
+    width: 156px;
+    margin-left: 37px;
+}
+
+.Navbar {
+    padding: 0px;
+    font-family: math;
+    font-weight: bold;
+}
+
+.Navbar .container-fluid {
+    box-shadow: -1px -5px 20px gray;
+    background: white;
+    z-index: 1;
+}
+
+.Navbar li .nav-link:hover {
+    color: #69ad02;
+}
+
+@media (max-width: 767px) {
+    .Navbar li .nav-link {
+        margin-left: 20px;
+    }
+
+    .Navbar img {
+        height: 73px;
+        width: 196px;
+        margin-left: 11px;
+    }
+
+
+}

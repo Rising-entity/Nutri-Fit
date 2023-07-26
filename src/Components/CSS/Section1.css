@@ -1,0 +1,51 @@
+.Section1 h2 span {
+    color: #69ad02;
+
+}
+
+.Section1 h2 {
+    font-size: 43px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    font-family: 'Merriweather', serif;
+}
+
+.Section1 p {
+    color: #171515c4;
+}
+
+.Section1 {
+    min-height: 67vh;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 6px #808080ba;
+}
+
+.Section1 img {
+    width: 423px;
+    height: 328px;
+}
+
+.Section1 .box1 {
+    margin-top: 92px;
+
+}
+
+@media (max-width: 767px) {
+    .Section1 .box1 {
+        margin: 0px;
+    }
+
+    .Section1 {
+        width: 90vw;
+    }
+
+    .Section1 h2 {
+        margin-top: 22px;
+    }
+
+    .Section1 img {
+        height: 291px;
+        position: relative;
+        bottom: 51px;
+    }
+}

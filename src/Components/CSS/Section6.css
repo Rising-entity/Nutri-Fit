@@ -1,0 +1,129 @@
+.Section6 .row {
+    margin: 0px;
+    /* border: 2px solid rgb(0, 255, 94); */
+    justify-content: center;
+    background: gainsboro;
+    height: 51vh;
+}
+
+.Section6 .row .c1 {
+    /* border: 2px solid red; */
+    margin: 0px 10px;
+}
+
+.Section6 .inpname {
+    padding-left: 15px;
+    width: 400px;
+    height: 36px;
+    display: block;
+    margin: 25px auto;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.Section6 .inpmail {
+    padding-left: 15px;
+    width: 400px;
+    height: 36px;
+    display: block;
+    margin: 25px auto;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.Section6 .inpmsg {
+    padding-left: 15px;
+    width: 400px;
+    height: 70px;
+    display: block;
+    margin: 14px auto;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.Section6 .subbtn {
+    display: block;
+    margin: 0px auto;
+    width: 91px;
+    height: 34px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: #1a87ffbf;
+    box-shadow: 0px 0px 5px gray;
+}
+
+
+
+.Section6 img {
+    width: 37px;
+    display: block;
+    margin: 10px auto;
+}
+
+.Section6 .insta {
+    width: 43px;
+}
+
+.Section6 .maindiv {
+    height: 198px;
+    box-shadow: 2px 4px 4px #040303;
+    margin: 20px 0px 0px 0px;
+    width: 91%;
+    color: white;
+    background: #302e2e;
+}
+
+.Section6 .div1 {
+    /* border: 2px solid black; */
+    width: 87px;
+    height: 156px;
+    display: inline-block;
+    /* float: left; */
+}
+
+.Section6 .div2 {
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    /* margin: 2px 14px; */
+    position: relative;
+    bottom: 16px;
+}
+
+.Section6 h4,
+.Section6 p {
+    text-align: center;
+
+}
+
+.Section6 h4 {
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+
+}
+
+@media (max-width: 767px) {
+
+    .Section6 .inpname,
+    .Section6 .inpmsg,
+    .Section6 .inpmail {
+        width: 305px;
+
+    }
+
+    .Section6 .row {
+        margin: 0px;
+        justify-content: center;
+        background: gainsboro;
+        width: 100vw;
+        height: 84vh;
+    }
+
+    .Section6 .maindiv {
+        margin: 10px auto;
+
+    }
+
+}
