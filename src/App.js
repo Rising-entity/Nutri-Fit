@@ -13,7 +13,7 @@ import Section1 from './Components/Home/Section1';
 
 function App() {
   const [Food, setFood] = useState("");
-
+   
   // useEffect(() => {
   //   // This code will run whenever the value of `query` changes
   //   if (Food !== "") {
