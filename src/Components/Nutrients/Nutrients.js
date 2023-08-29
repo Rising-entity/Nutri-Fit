@@ -16,7 +16,9 @@ import Spinner from "../Spinner/Spinner";
 
 
 function Nutrients(props) {
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     const [loading, setLoading] = useState(false);
     const [found, setFound] = useState(1);
     const [input, setInput] = useState("");
@@ -118,7 +120,7 @@ function Nutrients(props) {
                 <div className="container">
                     <div className="my-3 py-3 rounded-2" style={{ backgroundColor: "rgb(240, 240, 240)" }}>
 
-                        <h1 className="text-center" style={{fontFamily:"'Merriweather', serif"}}>Search food</h1>
+                        <h1 className="text-center" style={{ fontFamily: "'Merriweather', serif" }}>Search food</h1>
                         <div className="col-md-6 mx-auto">
                             <div className="row no-gutters mt-3 align-items-center mx-auto">
                                 <div className="col col-md-8">
@@ -149,7 +151,7 @@ function Nutrients(props) {
                     <div className="mt-3 py-1 rounded-2" style={{ backgroundColor: "rgb(240, 240, 240)" }}>
                         <div className="container my-5">
                             {found === 0 ? (
-                                <p className="fw-bold text-center" style={{color:"red"}}>Food not found, try to enter another food</p>
+                                <p className="fw-bold text-center" style={{ color: "red" }}>Food not found, try to enter another food</p>
                             ) : (
                                 <>
                                     <div className="row">

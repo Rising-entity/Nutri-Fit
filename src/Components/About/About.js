@@ -1,8 +1,9 @@
-import React from "react";
-// import { useNavigate } from "react-router-dom";
+import React,{useEffect} from "react";
 
 const About = () => {
-    // const navigate = useNavigate();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     return (
         <div className="p-3 mb-2  ">
 

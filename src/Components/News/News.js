@@ -6,6 +6,9 @@ import "../News/News.css"
 export default function News() {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
     useEffect(() => {
         setLoading(true);
