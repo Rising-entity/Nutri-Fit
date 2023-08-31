@@ -10,8 +10,8 @@ export default function Section5() {
                 <div>
                     <div className='row '>
                         <div className='col-md-6 mx-1 sec5bx1'>
-                            <p>I'm a self-taught programmer having a keen interest in Web Development and Computer Science, who wants to learn new things and gain more knowledge about upcoming technology. <a href="https://www.linkedin.com/in/ashtekarmayank/" target='_blank'>visit my linkedin profile</a> for more info.</p>
-                            <a href=""></a>
+                            <p>Hi, I’m Mayank Ashtekar, a self-taught programmer with a passion for web development and computer science. I love to learn new things and keep myself updated with the latest technologies. You can find more information about me on  <a href="https://www.linkedin.com/in/ashtekarmayank/" target='_blank'> my linkedin profile</a>.</p>
+                            
                         </div>
                         <div className='col-md-3 mx-1 img1 sec5bx2'>
                             <img className="img-fluid" src={mayank} alt="" />
