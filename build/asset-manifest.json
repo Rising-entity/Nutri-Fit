@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78193824.css",
+    "main.js": "/static/js/main.7b710184.js",
+    "static/js/787.57efb782.chunk.js": "/static/js/787.57efb782.chunk.js",
+    "static/media/Application programming interface.gif": "/static/media/Application programming interface.0431d9b40b4e03d47b6e.gif",
+    "static/media/apple.jpg": "/static/media/apple.f3436cb697dd94c3dd1d.jpg",
+    "static/media/intro.png": "/static/media/intro.f31b8b07cf76d7696f35.png",
+    "static/media/micky.jpg": "/static/media/micky.e95e35bf82305b857788.jpg",
+    "static/media/biryani.jpg": "/static/media/biryani.ebb17fad0cf37392900f.jpg",
+    "static/media/idli.jpg": "/static/media/idli.2a87700bf434697becdb.jpg",
+    "static/media/basicpreve.png": "/static/media/basicpreve.02d6cf6275fa68680253.png",
+    "static/media/chicken.jpg": "/static/media/chicken.e758e11251fca753cebd.jpg",
+    "static/media/newsimg.png": "/static/media/newsimg.a8ca56e7145153b8bf88.png",
+    "static/media/poha.jpg": "/static/media/poha.fddecfb6ca761a9d656a.jpg",
+    "static/media/Eclipse-1s-200px (1).gif": "/static/media/Eclipse-1s-200px (1).391264c24043d7efab49.gif",
+    "static/media/insta.png": "/static/media/insta.1792ff30fb032c94685c.png",
+    "static/media/rice.jpg": "/static/media/rice.a8b78343016ae91a21bc.jpg",
+    "static/media/orange.jpg": "/static/media/orange.77c0cbbf76fa2880b68b.jpg",
+    "static/media/fb.png": "/static/media/fb.13d509b1b48ee6f8c1da.png",
+    "static/media/timesaving.png": "/static/media/timesaving.ecfe7a9ca47c4b3de984.png",
+    "static/media/github.png": "/static/media/github.93565df8a9bd712c0f4c.png",
+    "static/media/dosa.jpg": "/static/media/dosa.623c141428c223499219.jpg",
+    "index.html": "/index.html",
+    "main.78193824.css.map": "/static/css/main.78193824.css.map",
+    "main.7b710184.js.map": "/static/js/main.7b710184.js.map",
+    "787.57efb782.chunk.js.map": "/static/js/787.57efb782.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78193824.css",
+    "static/js/main.7b710184.js"
+  ]
+}

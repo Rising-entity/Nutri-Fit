@@ -25,7 +25,7 @@ export default function Section3(props) {
                     {/* <h5>try us</h5> */}
                     <h4>Get nutritional value by searching food</h4>
                     <p id='mypara'>
-                        NUTRI-FIT's Food Nutrition Calculator allows you to choose from thousands of foods and brands, and see nutrition facts such as calories, fat, protein, carbohydrates, fiber and sugar. Get started by entering your food name.
+                        NUTRI-FIT's Food Nutrition Calculator allows you to choose from thousands of foods and brands, and see nutrition facts such as calories, fat, protein, carbohydrates, fiber and sugar. Get started by entering your food name (eg: Apple, biryani ,milk etc.).
                     </p>
                     <input
                         type='text'

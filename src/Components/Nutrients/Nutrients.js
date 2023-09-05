@@ -18,7 +18,9 @@ import Spinner from "../Spinner/Spinner";
 function Nutrients(props) {
     useEffect(() => {
         window.scrollTo(0, 0);
+        setInput(props.food);
     }, [])
+
     const [loading, setLoading] = useState(false);
     const [found, setFound] = useState(1);
     const [input, setInput] = useState("");
@@ -35,14 +37,18 @@ function Nutrients(props) {
         serving_size: 0
     });
 
-    //for seraching food from home
     useEffect(() => {
-        // if (props.food !== "") {
-        setInput(props.food);
-        fetchData();
-        console.log("Food:", props.food); // Access the `food` prop directly
-        // }
-    }, [props.food]);
+        window.scrollTo(0, 0);
+    }, [input])
+    
+    //for seraching food from home
+    // useEffect(() => {
+    //     // if (props.food !== "") {
+    //     setInput(props.food);
+    //     fetchData();
+    //     console.log("Food:", props.food); // Access the `food` prop directly
+    //     // }
+    // }, [props.food]);
 
 
     //for seraching food from nutrients

@@ -14,14 +14,9 @@ import Section1 from './Components/Home/Section1';
 function App() {
   const [Food, setFood] = useState("");
    
-  // useEffect(() => {
-  //   // This code will run whenever the value of `query` changes
-  //   if (Food !== "") {
-  //     console.log("Query changed:", Food);
-  //     // now send it to the nutrients
-
-  //   }
-  // }, [Food]);
+  useEffect(() => {
+    setFood("");
+  }, [Food]);
 
   const handleOnClick = async () => {
     
