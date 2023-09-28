@@ -40,7 +40,7 @@ function Nutrients(props) {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [input])
-    
+
     //for seraching food from home
     // useEffect(() => {
     //     // if (props.food !== "") {

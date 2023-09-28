@@ -35,7 +35,7 @@ export default function News() {
         axios
             .request(options)
             .then(function (response) {
-                // console.log(response.data.value, 'hello');
+                console.log(response, 'hello');
                 setData(response.data.value);
                 setLoading(false);
             })
